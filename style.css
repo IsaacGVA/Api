@@ -2,18 +2,39 @@ body {
 
   font-family: Arial;
   padding: 20px;
+  background: #f4f4f4;
+
+}
+
+h1 {
+
+  color: #333;
 
 }
 
 button {
 
-  padding: 10px;
+  padding: 10px 20px;
   cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+
+}
+
+ul {
+
+  padding: 0;
 
 }
 
 li {
 
-  margin: 10px 0;
+  list-style: none;
+  background: white;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 8px;
 
 }

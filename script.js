@@ -23,7 +23,13 @@ async function buscarUsuarios() {
     // Adiciona cada usuário na lista
     lista.innerHTML += `
       <li>
-        ${usuario.name}
+        <strong>Nome:</strong> ${usuario.nome}
+        <br>
+
+        <strong>Email:</strong> ${usuario.email}
+        <br>
+
+        <strong>Telefone:</strong> ${usuario.telefone}
       </li>
     `;
 
